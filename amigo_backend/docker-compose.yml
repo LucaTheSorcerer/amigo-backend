@@ -1,0 +1,40 @@
+services:
+  postgres:
+    container_name: testdb
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: ${PGUSER}
+      POSTGRES_PASSWORD: ${PGPASSWORD}
+      POSTGRES_DB: ${PGDATABASE}
+      PGDATA: /var/lib/postgresql/data/pgdata
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./_pgdata:/var/lib/postgresql/data
+
+  backend:
+    container_name: testbackend
+
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      DATABASE_URL: ecto://postgres:${PGPASSWORD}@postgres/${PGDATABASE}
+      PGUSER: ${PGUSER}
+      PGPASSWORD: ${PGPASSWORD}
+      PGDATABASE: ${PGDATABASE}
+      PGHOST: postgres # Add this line
+      PGPORT: ${PGPORT}
+
+    ports:
+      - "4000:4000"
+    depends_on:
+      - postgres
+
+    restart: always
+    command:
+      - ./run.sh
+
+volumes:
+  postgres-data:
+

@@ -4,7 +4,8 @@ FROM erlang:26.2.2
 # Install dependencies required by asdf and Elixir
 RUN apt-get update && \
     apt-get install -y --no-install-recommends git curl autoconf dirmngr gpg gpg-agent bash && \
-    apt-get install -y postgresql-client && \
+    apt-get install -y postgresql-client inotify-tools && \
+    apt-get install -y build-essential && \
     rm -rf /var/lib/apt/lists/*
 
 #RUN curl -fsSL https://deb.nodesource.com/setup_20.x -o nodesource_setup.sh

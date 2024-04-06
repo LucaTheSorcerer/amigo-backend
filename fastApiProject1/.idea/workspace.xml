@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6da6dfdf-38da-4ed2-975e-8cf27d6eb369" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.formatter.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/amigo_backend.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/dataSources/91337842-6628-4356-876d-5305ea40e998.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/dataSources/91337842-6628-4356-876d-5305ea40e998/storage_v2/_src_/database/amigodb.o9I0yw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/dataSources/91337842-6628-4356-876d-5305ea40e998/storage_v2/_src_/database/amigodb.o9I0yw/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../amigo_backend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/assets/css/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/assets/js/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/assets/tailwind.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/assets/vendor/topbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/config/config.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/config/dev.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/config/prod.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/config/runtime.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/config/test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend/account/user.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend/application.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend/mailer.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend/repo.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/components/core_components.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/components/layouts.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/components/layouts/app.html.heex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/components/layouts/root.html.heex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/controllers/error_html.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/controllers/error_json.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/controllers/page_controller.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/controllers/page_html.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/controllers/page_html/home.html.heex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/endpoint.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/gettext.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/router.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/lib/amigo_backend_web/telemetry.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/mix.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/mix.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/priv/gettext/en/LC_MESSAGES/errors.po" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/priv/gettext/errors.pot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/priv/repo/migrations/.formatter.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/priv/repo/migrations/20240406115928_create_users.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/priv/repo/seeds.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/priv/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/priv/static/images/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/priv/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/run.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/test/amigo_backend_web/controllers/error_html_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/test/amigo_backend_web/controllers/error_json_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/test/amigo_backend_web/controllers/page_controller_test.exs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/test/support/conn_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/test/support/data_case.ex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amigo_backend/test/test_helper.exs" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FastAPI main" />
+        <option value="FastAPI test_main" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2ejUm9IV5mdTzJJ5xVcOyZeRksj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="fastApiProject1" type="Python.FastAPI">
+      <option name="file" value="$PROJECT_DIR$/main.py" />
+      <module name="fastApiProject1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6da6dfdf-38da-4ed2-975e-8cf27d6eb369" name="Changes" comment="" />
+      <created>1712417637484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712417637484</updated>
+      <workItem from="1712417638480" duration="80000" />
+    </task>
+    <servers />
+  </component>
+</project>

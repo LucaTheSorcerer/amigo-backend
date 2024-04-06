@@ -38,6 +38,5 @@ npm-debug.log
 /_pgdata
 
 .env
-
 priv/ssl/cert.pem
 priv/ssl/priv_key.pem

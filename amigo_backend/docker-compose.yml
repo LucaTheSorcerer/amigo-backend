@@ -1,6 +1,6 @@
 services:
   postgres:
-    container_name: testdb
+    container_name: amigo-database
     image: postgres:latest
     environment:
       POSTGRES_USER: ${PGUSER}
@@ -13,7 +13,7 @@ services:
       - ./_pgdata:/var/lib/postgresql/data
 
   backend:
-    container_name: testbackend
+    container_name: amigo-backend
 
     build: .
     volumes:
@@ -23,7 +23,7 @@ services:
       PGUSER: ${PGUSER}
       PGPASSWORD: ${PGPASSWORD}
       PGDATABASE: ${PGDATABASE}
-      PGHOST: postgres # Add this line
+      PGHOST: postgres
       PGPORT: ${PGPORT}
 
     ports:

@@ -20,7 +20,7 @@ config :amigo_backend, AmigoBackendWeb.Endpoint,
     layout: false
   ],
   pubsub_server: AmigoBackend.PubSub,
-  live_view: [signing_salt: "79JOnQyV"]
+  live_view: [signing_salt: "sAMa/P63"]
 
 # Configures the mailer
 #

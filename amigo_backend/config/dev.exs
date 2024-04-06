@@ -20,16 +20,11 @@ config :amigo_backend, AmigoBackend.Repo,
 config :amigo_backend, AmigoBackendWeb.Endpoint,
   # Binding to loopback ipv4 address prevents access from other machines.
   # Change to `ip: {0, 0, 0, 0}` to allow access from other machines.
-  https: [
-         cipher_suite: :strong,
-         keyfile: "priv/ssl/priv_key.pem",
-         certfile: "priv/ssl/cert.pem",
-         ip: {0, 0, 0, 0},
-         port: 4000],
+  http: [ip: {0, 0, 0, 0}, port: 4000],
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "M6o06BPySyiVXkoNdL21l2lAy9ja/paVJGu1KiH7T3li0zj6LmeCjpbY7ZvW2Tk/",
+  secret_key_base: "ZctrDMUQ9Npilt8pmB3u+GI9/gbBJKy6vquNfirJf3gaL3VvVOsNELWpm+iSxruS",
   watchers: [
     esbuild: {Esbuild, :install_and_run, [:amigo_backend, ~w(--sourcemap=inline --watch)]},
     tailwind: {Tailwind, :install_and_run, [:amigo_backend, ~w(--watch)]}

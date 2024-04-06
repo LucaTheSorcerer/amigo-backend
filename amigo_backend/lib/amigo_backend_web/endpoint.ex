@@ -1,15 +1,13 @@
 defmodule AmigoBackendWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :amigo_backend
 
-  plug CORSPlug, origin: "http://localhost:3000"
-
   # The session will be stored in the cookie and signed,
   # this means its contents can be read but not tampered with.
   # Set :encryption_salt if you would also like to encrypt it.
   @session_options [
     store: :cookie,
     key: "_amigo_backend_key",
-    signing_salt: "KdcFSHGs",
+    signing_salt: "fqthSc56",
     same_site: "Lax"
   ]
 

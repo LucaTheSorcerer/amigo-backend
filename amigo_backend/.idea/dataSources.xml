@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="amigodb@localhost" uuid="1122711f-92a7-4bd3-b42e-2e03e10e2203">
+    <data-source source="LOCAL" name="amigodb@localhost" uuid="91337842-6628-4356-876d-5305ea40e998">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>

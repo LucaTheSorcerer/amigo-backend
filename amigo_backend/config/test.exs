@@ -1,8 +1,5 @@
 import Config
 
-# Only in tests, remove the complexity from the password hashing algorithm
-config :bcrypt_elixir, :log_rounds, 1
-
 # Configure your database
 #
 # The MIX_TEST_PARTITION environment variable can be used
@@ -20,7 +17,7 @@ config :amigo_backend, AmigoBackend.Repo,
 # you can enable the server option below.
 config :amigo_backend, AmigoBackendWeb.Endpoint,
   http: [ip: {127, 0, 0, 1}, port: 4002],
-  secret_key_base: "QozW3xkRIMfgSkE7DTGtYUvqKdnlPjS4+7fn864odmN6Bvixkh8nIgbxez2duPHf",
+  secret_key_base: "sSomdnctJ3gQUrsZYzMKAsuMIUzlkNSfL4sxv5bLnPR6n79zhp1gK9tsqJFQAdSZ",
   server: false
 
 # In test we don't send emails.
